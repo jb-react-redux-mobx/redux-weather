@@ -1,25 +1,15 @@
-# ReduxSimpleStarter
+# Learn Redux
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+A simple React + Redux implementation of instagram. I used this to learn the principles and methodologies of a Redux + React ecosystem.
+![Weather!!](Weather.png)
 
-###Getting Started###
+## Running
 
-There are two methods for getting started with this repo.
+First `npm install` to grab all the necessary dependencies. 
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Then run `npm start` and open <localhost:7770> in your browser.
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
+## Production Build
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Run `npm build` to create a distro folder and a bundle.js file.
 
-```
-	> npm install
-	> npm start
-```
